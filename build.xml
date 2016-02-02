@@ -1,6 +1,6 @@
 <project name="My Project" default="help" basedir=".">
   <!-- Define the properties used by the build -->
-  <property name="app.name"      value="helloWorld"/>
+  <property name="app.name"      value="dev_ops"/>
   <property name="app.version"   value="0.1-dev"/>
   <property name="tcserver.home" value="/home/tcserver/tcServer-6.0/tomcat-6.0.20.C" />
   <property name="work.home"    value="${basedir}/work"/>
@@ -45,6 +45,7 @@
           description="Create working dirs and copy static files to work dir">
     <mkdir  dir="${dist.home}"/>
     <mkdir  dir="${work.home}/WEB-INF/classes"/>
+    <mkdir  dir="${web.home}"/>
     <!-- Copy static HTML and JSP files to work dir -->
     <copy todir="${work.home}">
       <fileset dir="${web.home}"/>
