@@ -45,6 +45,7 @@
           description="Create working dirs and copy static files to work dir">
     <mkdir  dir="${dist.home}"/>
     <mkdir  dir="${work.home}/WEB-INF/classes"/>
+    <mkdir  dir="${web.home}"/>
     <!-- Copy static HTML and JSP files to work dir -->
     <copy todir="${work.home}">
       <fileset dir="${web.home}"/>
