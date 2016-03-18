@@ -3,7 +3,7 @@
 <project name = "dev-ops-build" basedir = "." default = "usage">
 
 
-   <property name="server.home" value="C:\Program Files(x86)\Apache Software Foundation\Tomcat 7.0" /> 
+   <property name="server.home" value="C:\Program Files\Apache Software Foundation\Tomcat 7.0" /> 
    <property name = "deploy.path" value = "C:\Program Files(x86)\Apache Software Foundation\Tomcat 7.0\webapps"/>
    <property name = "src.dir" value = "src"/>
    <property name = "web.dir" value = "web"/>
