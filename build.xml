@@ -71,6 +71,17 @@
     </target>
 
 
+<target name="deploy_to_env">
+
+  <exec executable="cmd">
+    <arg value="/c"/>
+    <arg value="deploy.bat"/>
+    <arg value="-p"/>
+  </exec>
+
+</target>
+
+
    <target name = "deploywar" depends = "build" description = "Deploy application as a WAR file">
    
       <war destfile = "${name}.war" webxml = "${web.dir}/WEB-INF/web.xml">
