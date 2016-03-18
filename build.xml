@@ -71,7 +71,7 @@
     </target>
 
 
-<target name="deploy_to_env">
+<target name="deploy_to_env" depends = "generate_war" description = "deploy to a remote machine">
 
   <exec executable="cmd">
     <arg value="/c"/>
