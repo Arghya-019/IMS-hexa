@@ -1,2 +1,2 @@
-net use Z: \\172.25.164.41\d$\Arghya /user:corp\32588 Password2017 
+net use Z: \\$VM_server\d$\Arghya /user:corp\32588 Welcome_123 
 xcopy dev-ops.war Z:
