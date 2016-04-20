@@ -43,7 +43,7 @@
       <echo message = ""/>
    </target>
 
-   <target name = "build" description = "Compile main source tree java files">
+   <target name = "build" description = "Compile main source tree java files to class files">
       <mkdir dir = "${build.dir}"/>
       
       <javac destdir = "${build.dir}" source = "1.8" target = "1.8" debug = "true"
