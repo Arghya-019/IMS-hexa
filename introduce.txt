@@ -1,5 +1,0 @@
-This is a introductory file for learning repo2.
-
-This file is created by Arghya Das.
-
-edited today.
