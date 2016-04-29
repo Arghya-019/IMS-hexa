@@ -42,3 +42,5 @@ exclude('**/*.java')
 
 
 war.mustRunAfter copyFile
+
+task buildApp(dependsOn : [clean, compileJava, war])
