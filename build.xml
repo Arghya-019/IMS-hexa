@@ -1,6 +1,6 @@
 <?xml version = "1.0"?>
 
-<project name = "dev-ops-build" basedir = "." default = "usage">
+<project name = "dev-ops-sample" basedir = "." default = "usage">
 
 
    <property name="server.home" value="C:\Program Files\Apache Software Foundation\Tomcat 7.0" /> 
